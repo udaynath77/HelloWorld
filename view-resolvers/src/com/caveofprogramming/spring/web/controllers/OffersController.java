@@ -12,7 +12,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class OffersController {
 	
-	@RequestMapping("/") ///Test
+	@RequestMapping("/") 
 	public ModelAndView showHome(HttpSession session) {
 		//session.setAttribute("name", "Harrisorris");
 		Logger logger=Logger.getLogger(OffersController.class);
